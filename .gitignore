@@ -1,0 +1,5 @@
+build/
+.idea/
+.gradle/
+data/client/
+data/server/bigfloppa.mp4
