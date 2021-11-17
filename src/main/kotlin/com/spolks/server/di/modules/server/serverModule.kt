@@ -1,14 +1,14 @@
-package com.astronaut.server.di.modules.server
+package com.spolks.server.di.modules.server
 
-import com.astronaut.server.config.ServerConfig
-import com.astronaut.server.server.Server
-import com.astronaut.server.server.impl.ServerImpl
-import com.astronaut.server.server.ServerSocketWrapper
-import com.astronaut.server.server.impl.ServerSocketWrapperImpl
-import com.astronaut.server.socket.ServerSocket
-import com.astronaut.server.socket.impl.tcp.TCPServerSocket
-import com.astronaut.server.socket.impl.udp.UDPServerSocket
-import com.astronaut.server.utils.ServerProtocol
+import com.spolks.server.config.ServerConfig
+import com.spolks.server.server.Server
+import com.spolks.server.server.impl.ServerImpl
+import com.spolks.server.server.ServerSocketWrapper
+import com.spolks.server.server.impl.ServerSocketWrapperImpl
+import com.spolks.server.socket.ServerSocket
+import com.spolks.server.socket.impl.tcp.TCPServerSocket
+import com.spolks.server.socket.impl.udp.UDPServerSocket
+import com.spolks.server.utils.ServerProtocol
 import org.kodein.di.*
 
 val serverModule = DI.Module("Server") {

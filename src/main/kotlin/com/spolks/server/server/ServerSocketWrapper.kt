@@ -1,6 +1,6 @@
-package com.astronaut.server.server
+package com.spolks.server.server
 
-import com.astronaut.server.socket.ClientSocket
+import com.spolks.server.socket.ClientSocket
 
 interface ServerSocketWrapper {
     suspend fun accept(): ClientSocket

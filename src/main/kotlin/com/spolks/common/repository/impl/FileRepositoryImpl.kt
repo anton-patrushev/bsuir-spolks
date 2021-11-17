@@ -1,8 +1,8 @@
-package com.astronaut.common.repository.impl
+package com.spolks.common.repository.impl
 
-import com.astronaut.common.repository.FileRepository
-import com.astronaut.common.utils.Chunk
-import com.astronaut.common.utils.Events
+import com.spolks.common.repository.FileRepository
+import com.spolks.common.utils.Chunk
+import com.spolks.common.utils.Events
 import kotlinx.coroutines.flow.*
 import java.io.FileInputStream
 import java.io.FileOutputStream

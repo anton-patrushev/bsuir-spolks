@@ -1,7 +1,6 @@
-package com.astronaut.server
+package com.spolks.server
 
-import com.astronaut.server.di.DIRoot
-import com.astronaut.server.utils.ServerProtocol
+import com.spolks.server.di.DIRoot
 
 fun main() {
     DIRoot.getConfigInstance().configure(

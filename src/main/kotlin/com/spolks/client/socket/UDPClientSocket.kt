@@ -1,11 +1,11 @@
-package com.astronaut.client.socket
+package com.spolks.client.socket
 
-import com.astronaut.common.socket.udp.UDPSocket
-import com.astronaut.common.socket.udp.runSuspending
-import com.astronaut.common.socket.udp.send
-import com.astronaut.common.utils.Events
-import com.astronaut.common.utils.getUnifiedString
-import com.astronaut.common.utils.toByteArray
+import com.spolks.common.socket.udp.UDPSocket
+import com.spolks.common.socket.udp.runSuspending
+import com.spolks.common.socket.udp.send
+import com.spolks.common.utils.Events
+import com.spolks.common.utils.getUnifiedString
+import com.spolks.common.utils.toByteArray
 import java.net.InetSocketAddress
 
 class UDPClientSocket(

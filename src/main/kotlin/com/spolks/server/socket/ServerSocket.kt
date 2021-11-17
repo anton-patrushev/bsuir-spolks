@@ -1,4 +1,4 @@
-package com.astronaut.server.socket
+package com.spolks.server.socket
 
 interface ServerSocket {
     suspend fun accept(): ClientSocket

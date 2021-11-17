@@ -1,7 +1,7 @@
-package com.astronaut.server.di.modules.repository
+package com.spolks.server.di.modules.repository
 
-import com.astronaut.common.repository.FileRepository
-import com.astronaut.common.repository.impl.FileRepositoryImpl
+import com.spolks.common.repository.FileRepository
+import com.spolks.common.repository.impl.FileRepositoryImpl
 import org.kodein.di.DI
 import org.kodein.di.bind
 import org.kodein.di.singleton

@@ -1,12 +1,12 @@
-package com.astronaut.server.server.impl
+package com.spolks.server.server.impl
 
-import com.astronaut.server.config.ServerConfig
-import com.astronaut.server.controller.BaseController
-import com.astronaut.server.controller.FileController
-import com.astronaut.server.server.Server
-import com.astronaut.server.server.ServerSocketWrapper
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.common.utils.Events
+import com.spolks.server.config.ServerConfig
+import com.spolks.server.controller.BaseController
+import com.spolks.server.controller.FileController
+import com.spolks.server.server.Server
+import com.spolks.server.server.ServerSocketWrapper
+import com.spolks.server.socket.ClientSocket
+import com.spolks.common.utils.Events
 import kotlinx.coroutines.*
 
 class ServerImpl(

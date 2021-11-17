@@ -1,9 +1,9 @@
-package com.astronaut.server.di.modules.controller
+package com.spolks.server.di.modules.controller
 
-import com.astronaut.server.controller.BaseController
-import com.astronaut.server.controller.FileController
-import com.astronaut.server.controller.impl.BaseControllerImpl
-import com.astronaut.server.controller.impl.FileControllerImpl
+import com.spolks.server.controller.BaseController
+import com.spolks.server.controller.FileController
+import com.spolks.server.controller.impl.BaseControllerImpl
+import com.spolks.server.controller.impl.FileControllerImpl
 import org.kodein.di.DI
 import org.kodein.di.bind
 import org.kodein.di.instance

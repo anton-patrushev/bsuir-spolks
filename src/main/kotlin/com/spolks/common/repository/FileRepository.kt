@@ -1,6 +1,6 @@
-package com.astronaut.common.repository
+package com.spolks.common.repository
 
-import com.astronaut.common.utils.Chunk
+import com.spolks.common.utils.Chunk
 import kotlinx.coroutines.flow.Flow
 
 interface FileRepository {

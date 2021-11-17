@@ -1,13 +1,11 @@
-package com.astronaut.server.controller.impl
+package com.spolks.server.controller.impl
 
-import com.astronaut.server.controller.FileController
-import com.astronaut.server.service.FileService
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.common.utils.Events
-import io.ktor.utils.io.*
+import com.spolks.server.controller.FileController
+import com.spolks.server.service.FileService
+import com.spolks.server.socket.ClientSocket
+import com.spolks.common.utils.Events
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.onCompletion
 
 class FileControllerImpl(
     private val fileService: FileService

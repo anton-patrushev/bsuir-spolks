@@ -1,8 +1,8 @@
-package com.astronaut.server.di.modules.socket.udp
+package com.spolks.server.di.modules.socket.udp
 
-import com.astronaut.server.config.ServerConfig
-import com.astronaut.server.socket.impl.udp.UDPClientsPool
-import com.astronaut.server.socket.impl.udp.UDPServerSocket
+import com.spolks.server.config.ServerConfig
+import com.spolks.server.socket.impl.udp.UDPClientsPool
+import com.spolks.server.socket.impl.udp.UDPServerSocket
 import org.kodein.di.*
 
 val udpSocketModule = DI.Module("UdpSocket") {

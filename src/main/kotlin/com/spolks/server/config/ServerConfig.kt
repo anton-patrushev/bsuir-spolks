@@ -1,10 +1,9 @@
-package com.astronaut.server.config
+package com.spolks.server.config
 
-import com.astronaut.server.utils.ServerProtocol
+import com.spolks.server.utils.ServerProtocol
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.asCoroutineDispatcher
 import java.util.concurrent.Executors
-import kotlin.coroutines.CoroutineContext
 
 class ServerConfig {
     lateinit var appScope: CoroutineScope

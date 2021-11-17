@@ -1,6 +1,6 @@
-package com.astronaut.common.socket.udp
+package com.spolks.common.socket.udp
 
-import com.astronaut.common.utils.wirehair.Wirehair
+import com.spolks.common.utils.wirehair.Wirehair
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.suspendCancellableCoroutine

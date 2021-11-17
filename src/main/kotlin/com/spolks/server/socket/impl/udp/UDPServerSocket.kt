@@ -1,14 +1,12 @@
-package com.astronaut.server.socket.impl.udp
+package com.spolks.server.socket.impl.udp
 
-import com.astronaut.common.repository.impl.CHUNK_SIZE
-import com.astronaut.common.socket.udp.UDPSocket
-import com.astronaut.common.socket.udp.listenForNewPackages
-import com.astronaut.common.socket.udp.runSuspending
-import com.astronaut.common.socket.udp.send
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.server.socket.ServerSocket
-import io.ktor.network.selector.*
-import io.ktor.network.sockets.*
+import com.spolks.common.repository.impl.CHUNK_SIZE
+import com.spolks.common.socket.udp.UDPSocket
+import com.spolks.common.socket.udp.listenForNewPackages
+import com.spolks.common.socket.udp.runSuspending
+import com.spolks.common.socket.udp.send
+import com.spolks.server.socket.ClientSocket
+import com.spolks.server.socket.ServerSocket
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.collect
 import java.net.InetSocketAddress

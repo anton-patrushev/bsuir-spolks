@@ -1,8 +1,8 @@
-package com.astronaut.server.server.impl
+package com.spolks.server.server.impl
 
-import com.astronaut.server.server.ServerSocketWrapper
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.server.socket.ServerSocket
+import com.spolks.server.server.ServerSocketWrapper
+import com.spolks.server.socket.ClientSocket
+import com.spolks.server.socket.ServerSocket
 
 class ServerSocketWrapperImpl(
     private val socket: ServerSocket

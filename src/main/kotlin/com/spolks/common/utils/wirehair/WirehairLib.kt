@@ -1,4 +1,4 @@
-package com.astronaut.common.utils.wirehair
+package com.spolks.common.utils.wirehair
 
 import com.sun.jna.Library
 import com.sun.jna.Native

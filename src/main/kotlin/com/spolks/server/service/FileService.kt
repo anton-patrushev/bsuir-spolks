@@ -1,6 +1,6 @@
-package com.astronaut.server.service
+package com.spolks.server.service
 
-import com.astronaut.common.utils.Chunk
+import com.spolks.common.utils.Chunk
 import kotlinx.coroutines.flow.Flow
 
 interface FileService {

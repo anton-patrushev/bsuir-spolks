@@ -1,7 +1,7 @@
-package com.astronaut.server.di.modules.socket.tcp
+package com.spolks.server.di.modules.socket.tcp
 
-import com.astronaut.server.config.ServerConfig
-import com.astronaut.server.socket.impl.tcp.TCPServerSocket
+import com.spolks.server.config.ServerConfig
+import com.spolks.server.socket.impl.tcp.TCPServerSocket
 import org.kodein.di.*
 
 val tcpSocketModule = DI.Module("TcpSocket") {

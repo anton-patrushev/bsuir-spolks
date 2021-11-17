@@ -1,8 +1,7 @@
-package com.astronaut.server.socket.impl.udp
+package com.spolks.server.socket.impl.udp
 
-import com.astronaut.common.socket.udp.QueuedDatagramPacket
-import com.astronaut.common.utils.toByteArray
-import io.ktor.network.sockets.*
+import com.spolks.common.socket.udp.QueuedDatagramPacket
+import com.spolks.common.utils.toByteArray
 import kotlinx.coroutines.delay
 import java.net.InetSocketAddress
 import kotlin.time.Duration

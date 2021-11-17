@@ -1,7 +1,7 @@
-package com.astronaut.server.socket.impl.tcp
+package com.spolks.server.socket.impl.tcp
 
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.server.socket.ServerSocket
+import com.spolks.server.socket.ClientSocket
+import com.spolks.server.socket.ServerSocket
 import io.ktor.network.selector.*
 import io.ktor.network.sockets.*
 import kotlinx.coroutines.CoroutineScope

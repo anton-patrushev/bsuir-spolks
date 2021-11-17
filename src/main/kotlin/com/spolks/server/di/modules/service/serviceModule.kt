@@ -1,7 +1,7 @@
-package com.astronaut.server.di.modules.service
+package com.spolks.server.di.modules.service
 
-import com.astronaut.server.service.FileService
-import com.astronaut.server.service.impl.FileServiceImpl
+import com.spolks.server.service.FileService
+import com.spolks.server.service.impl.FileServiceImpl
 import org.kodein.di.DI
 import org.kodein.di.bind
 import org.kodein.di.instance

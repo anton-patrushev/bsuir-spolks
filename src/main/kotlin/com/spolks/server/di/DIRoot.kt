@@ -1,8 +1,8 @@
-package com.astronaut.server.di
+package com.spolks.server.di
 
-import com.astronaut.server.config.ServerConfig
-import com.astronaut.server.di.modules.rootModule
-import com.astronaut.server.server.Server
+import com.spolks.server.config.ServerConfig
+import com.spolks.server.di.modules.rootModule
+import com.spolks.server.server.Server
 import org.kodein.di.DI
 import org.kodein.di.DIAware
 import org.kodein.di.instance

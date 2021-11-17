@@ -1,7 +1,7 @@
-package com.astronaut.server.controller
+package com.spolks.server.controller
 
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.common.utils.Events
+import com.spolks.server.socket.ClientSocket
+import com.spolks.common.utils.Events
 
 interface FileController {
     suspend fun upload(socket: ClientSocket, event: Events.UPLOAD)

@@ -1,7 +1,7 @@
-package com.astronaut.common.socket.udp
+package com.spolks.common.socket.udp
 
 import kotlinx.coroutines.CancellableContinuation
-import com.astronaut.common.socket.udp.SocketState.*
+import com.spolks.common.socket.udp.SocketState.*
 import java.net.InetSocketAddress
 import java.nio.ByteBuffer
 import java.util.*

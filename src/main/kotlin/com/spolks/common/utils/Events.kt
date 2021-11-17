@@ -1,4 +1,4 @@
-package com.astronaut.common.utils
+package com.spolks.common.utils
 
 sealed class Events {
     data class ECHO(val string: String): Events() {

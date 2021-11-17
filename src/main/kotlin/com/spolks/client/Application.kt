@@ -1,16 +1,15 @@
-package com.astronaut.client
+package com.spolks.client
 
-import com.astronaut.client.socket.UDPClientSocket
-import com.astronaut.common.repository.impl.CHUNK_SIZE
-import com.astronaut.common.repository.impl.FileRepositoryImpl
-import com.astronaut.common.socket.udp.UDPSocket
-import com.astronaut.common.utils.Events
+import com.spolks.client.socket.UDPClientSocket
+import com.spolks.common.repository.impl.CHUNK_SIZE
+import com.spolks.common.repository.impl.FileRepositoryImpl
+import com.spolks.common.socket.udp.UDPSocket
+import com.spolks.common.utils.Events
 import io.ktor.network.selector.*
 import io.ktor.network.sockets.*
 import io.ktor.utils.io.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.onCompletion
 import java.net.InetSocketAddress
 import java.util.concurrent.Executors
 import kotlin.coroutines.CoroutineContext

@@ -1,4 +1,4 @@
-package com.astronaut.common.utils
+package com.spolks.common.utils
 
 class Chunk(
     val data: ByteArray,

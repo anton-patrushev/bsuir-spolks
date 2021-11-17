@@ -1,6 +1,6 @@
-package com.astronaut.common.utils
+package com.spolks.common.utils
 
-import com.astronaut.common.repository.impl.CHUNK_SIZE
+import com.spolks.common.repository.impl.CHUNK_SIZE
 import io.ktor.utils.io.core.*
 import java.nio.ByteBuffer
 

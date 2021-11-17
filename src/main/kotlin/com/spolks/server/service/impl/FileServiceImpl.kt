@@ -1,8 +1,8 @@
-package com.astronaut.server.service.impl
+package com.spolks.server.service.impl
 
-import com.astronaut.common.repository.FileRepository
-import com.astronaut.common.utils.Chunk
-import com.astronaut.server.service.FileService
+import com.spolks.common.repository.FileRepository
+import com.spolks.common.utils.Chunk
+import com.spolks.server.service.FileService
 import kotlinx.coroutines.flow.Flow
 
 class FileServiceImpl(

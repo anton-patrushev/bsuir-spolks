@@ -1,4 +1,4 @@
-package com.astronaut.server.utils
+package com.spolks.server.utils
 
 enum class ServerProtocol {
     TCP,

@@ -1,4 +1,4 @@
-package com.astronaut.common.socket.udp
+package com.spolks.common.socket.udp
 
 import java.util.*
 

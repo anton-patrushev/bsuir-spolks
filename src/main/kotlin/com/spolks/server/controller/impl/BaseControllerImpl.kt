@@ -1,8 +1,8 @@
-package com.astronaut.server.controller.impl
+package com.spolks.server.controller.impl
 
-import com.astronaut.server.controller.BaseController
-import com.astronaut.server.socket.ClientSocket
-import com.astronaut.common.utils.Events
+import com.spolks.server.controller.BaseController
+import com.spolks.server.socket.ClientSocket
+import com.spolks.common.utils.Events
 import java.text.SimpleDateFormat
 import java.util.*
 
